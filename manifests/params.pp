@@ -30,7 +30,7 @@ class uchiwa::params {
   $sensu_api_endpoints  = [{
                             name     =>  'sensu',
                             ssl      =>  false,
-                            insecure =>  false
+                            insecure =>  false,
                             port     =>  4567,
                             user     =>  'sensu',
                             pass     =>  'sensu',
